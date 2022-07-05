@@ -1,0 +1,17 @@
+.wrapper {
+  @apply flex flex-row items-center my-2;
+
+  .label {
+    @apply text-base text-black font-bold w-16 flex justify-start;
+  }
+
+  .input {
+    @apply w-full border border-gray-300 rounded-md mx-4 px-4 py-2 focus:border-gray-600;
+
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
+      @apply outline-none;
+    }
+  }
+}

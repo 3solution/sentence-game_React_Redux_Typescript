@@ -1,0 +1,15 @@
+.wrapper {
+  @apply flex flex-col items-center mt-6;
+
+  .input {
+    @apply w-full;
+  }
+
+  .button {
+    @apply border-none bg-gray-600 hover:bg-gray-500 active:bg-gray-400 my-10 w-48 h-12 flex items-center justify-center rounded-md text-white;
+  }
+
+  .sentence {
+    @apply w-full px-4 py-6 h-60 border bg-gray-200 border-gray-500 rounded-lg text-black;
+  }
+}
