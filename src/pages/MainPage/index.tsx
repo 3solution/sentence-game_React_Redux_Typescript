@@ -8,7 +8,6 @@ import { setClear } from '../../store/slices/wordsSlice';
 const MainPage = () => {
   const words = useSelector((state: any) => state.words);
   const dispatch = useDispatch();
-  console.log('data: ', words);
 
   const clear = () => {
     dispatch(setClear());
