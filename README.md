@@ -1,5 +1,4 @@
-setnece game with redux
-# Getting Started with Create React App
+# Setnece game with redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
